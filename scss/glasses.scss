@@ -1,0 +1,101 @@
+.glasses {
+
+  &__wrap {
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    position: relative;
+    background: url('../images/20765-trees-green-fog-forest-shroud-top-view-4k.jpg') center/cover no-repeat;
+  }
+
+  &__title {
+    font-size: 20rem;
+    line-height: 1;
+    font-weight: 600;
+    font-family: 'Roboto';
+    color: wheat;
+    text-align: center;
+  }
+
+  &__bg {
+    clip-path:
+      polygon(0% 0%,
+        0% 100%,
+        15% 100%,
+        calc(50% - 34.9rem) calc(50% - 6.6rem),
+        calc(50% - 34rem) calc(50% - 9.1rem),
+        calc(50% - 32rem) calc(50% - 11.3rem),
+        calc(50% - 26.1rem) calc(50% - 12.5rem),
+        calc(50% - 20.9rem) calc(50% - 12.6rem),
+        calc(50% - 14.6rem) calc(50% - 12.2rem),
+        calc(50% - 8.6rem) calc(50% - 10.7rem),
+        calc(50% - 5.3rem) calc(50% - 9.1rem),
+        calc(50% + 5.2rem) calc(50% - 9.1rem),
+        calc(50% + 8.2rem) calc(50% - 10.9rem),
+        calc(50% + 14.2rem) calc(50% - 12.2rem),
+        calc(50% + 19.7rem) calc(50% - 12.7rem),
+        calc(50% + 26.7rem) calc(50% - 12.5rem),
+        calc(50% + 30.8rem) calc(50% - 11.7rem),
+        calc(50% + 34.1rem) calc(50% - 9.7rem),
+        calc(50% + 35.2rem) calc(50% - 5.7rem),
+        calc(50% + 35.4rem) calc(50% + 0rem),
+        calc(50% + 34.4rem) calc(50% + 5.1rem),
+        calc(50% + 33.7rem) calc(50% + 7.6rem),
+        calc(50% + 32rem) calc(50% + 10rem),
+        calc(50% + 28rem) calc(50% + 12.2rem),
+        calc(50% + 24rem) calc(50% + 12.9rem),
+        calc(50% + 18.4rem) calc(50% + 13.1rem),
+        calc(50% + 14rem) calc(50% + 12.5rem),
+        calc(50% + 12.4rem) calc(50% + 12rem),
+        calc(50% + 10.8rem) calc(50% + 11rem),
+        calc(50% + 8.9rem) calc(50% + 9rem),
+        calc(50% + 7.3rem) calc(50% + 6.4rem),
+        calc(50% + 5.9rem) calc(50% + 3.4rem),
+        calc(50% + 4.7rem) calc(50% - 0rem),
+        calc(50% + 4rem) calc(50% - 3rem),
+        calc(50% + 3.8rem) calc(50% - 5rem),
+        calc(50% + 3.9rem) calc(50% - 7rem),
+        calc(50% + 4.5rem) calc(50% - 8.3rem),
+        calc(50% + 5.2rem) calc(50% - 9.1rem),
+        calc(50% - 5.3rem) calc(50% - 9.1rem),
+        calc(50% - 4.2rem) calc(50% - 7.2rem),
+        calc(50% - 4rem) calc(50% - 4.1rem),
+        calc(50% - 4.4rem) calc(50% - 1.6rem),
+        calc(50% - 5.1rem) calc(50% + 1.8rem),
+        calc(50% - 6.2rem) calc(50% + 4.8rem),
+        calc(50% - 7.6rem) calc(50% + 8rem),
+        calc(50% - 9.4rem) calc(50% + 10.6rem),
+        calc(50% - 11.4rem) calc(50% + 12rem),
+        calc(50% - 13.3rem) calc(50% + 12.6rem),
+        calc(50% - 17.5rem) calc(50% + 13.3rem),
+        calc(50% - 22.5rem) calc(50% + 13.1rem),
+        calc(50% - 26.5rem) calc(50% + 12.4rem),
+        calc(50% - 29.8rem) calc(50% + 11rem),
+        calc(50% - 31.8rem) calc(50% + 9.3rem),
+        calc(50% - 33.5rem) calc(50% + 6.3rem),
+        calc(50% - 34.3rem) calc(50% + 2.5rem),
+        calc(50% - 35rem) calc(50% - 2.5rem),
+        calc(50% - 34.9rem) calc(50% - 6.6rem),
+        15% 100%,
+        100% 100%,
+        100% 0%);
+    background: rgba(255, 255, 255, 0);
+    backdrop-filter: blur(14px);
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+  }
+
+  &__circle {
+    background: url('../images/61IIQiL9RfL._UL1500_.png') center/118.6rem auto no-repeat;
+    filter: brightness(0.5) opacity(0.9);
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+  }
+}
